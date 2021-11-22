@@ -1,0 +1,26 @@
+.container {
+  width: 97vw;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.sub_container {
+  width: 40%;
+  height: 90%;
+  border: 1px solid black;
+  overflow-y: scroll;
+  font-size: 18px;
+  padding: 1%;
+}
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text span:first-child {
+  font-weight: bold;
+  color: maroon;
+}
